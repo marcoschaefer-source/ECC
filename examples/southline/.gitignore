@@ -1,0 +1,7 @@
+!dist/
+!dist/**
+!.openai/
+!.openai/**
+node_modules/
+coverage/
+test-results/
