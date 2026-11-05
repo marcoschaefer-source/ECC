@@ -1,0 +1,12 @@
+{
+  "name": "southline-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Buildless website concept for Southline Werbe- & Folientechnik",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --directory dist",
+    "test": "node --test --experimental-test-coverage tests/inquiry.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  }
+}
